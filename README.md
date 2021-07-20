@@ -1,2 +1,2 @@
 # stepik-auto-tests-course
-Did tasks for Stepic auto test course
+This course will teach me how to create and execute automation tests and make product much better!
