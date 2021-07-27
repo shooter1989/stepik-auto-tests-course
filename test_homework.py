@@ -1,11 +1,5 @@
 import pytest, math, time
-from selenium import webdriver
-@pytest.fixture()
-def browser():
-    browser = webdriver.Chrome()
-    browser.implicitly_wait(5)
-    yield browser
-    browser.quit()
+
 @pytest.mark.parametrize('links', ["https://stepik.org/lesson/236895/step/1",
                                     "https://stepik.org/lesson/236896/step/1",
                                     "https://stepik.org/lesson/236897/step/1",
