@@ -1,5 +1,5 @@
 import time
-import math
+
 # webdriver это и есть набор команд для управления браузером
 from selenium import webdriver
 
